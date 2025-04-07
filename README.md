@@ -1,18 +1,33 @@
 # Project FreeBird: The PDF Editor They Don't Want You To Have
 
 *A [Bruised Ego Labs](https://github.com/bruised-ego-labs) Production*  
-*Version 0.1.0 - First Flight*
+*Version 0.2.0 - Second Flight*
 
-**(Codename: Acrobat's Annoyance)**
+**(Codename: Acrobat's Nightmare)**
 
 ![Patch the Eagle - Our legally distinct mascot](FreeBird.png)
-*(Patch the Eagle says: "Freedom isn't free, but your PDF editor should be.")*
+*(Patch the Eagle says: "Freedom isn't free, but your PDF editor definitely should be.")*
 
 ---
 
-## Attention Adobe® Acrobat® Users: Your Reign of Subscription Tyranny May Be Nearing Its Slightly Clunky End.
+## What Our Users Are Saying*
 
-You gaze upon **Project FreeBird**, a technological marvel painstakingly assembled using Python, PyQt6, and the surprisingly potent PyMuPDF library. We at Bruised Ego Labs dared to ask: "What if viewing, assembling, and occasionally deleting pages from PDFs didn't require a second mortgage?"
+> "After using FreeBirdPDF, I finally cancelled my $239/year Adobe subscription. My kids now have food."  
+> — *Software Developer in Distress, Probably*
+
+> "I rearranged 400 pages in my dissertation with FreeBirdPDF. My advisor still hates it, but now it's perfectly ordered garbage."  
+> — *PhD Candidate, University of Perpetual Studies*
+
+> "FreeBirdPDF saved my marriage. My spouse said either the $20/month PDF software subscription goes, or they do."  
+> — *Someone Who Definitely Exists*
+
+*\*Not actual testimonials. Patch the Eagle may have made these up during his coffee break.*
+
+---
+
+## Attention Adobe® Acrobat® Users: Your Reign of Subscription Tyranny Is Now Officially Under Siege.
+
+You gaze upon **Project FreeBird**, a technological marvel painstakingly assembled using Python, PyQt6, and the surprisingly potent PyMuPDF library. We at Bruised Ego Labs dared to ask: "What if viewing, assembling, rearranging, and occasionally deleting pages from PDFs didn't require a second mortgage?"
 
 This project is the answer nobody at Adobe wanted to hear. It's proof that sometimes, "good enough" is actually... well, available.
 
@@ -25,12 +40,24 @@ This project is the answer nobody at Adobe wanted to hear. It's proof that somet
 Prepare to be moderately whelmed by capabilities previously thought only possible within heavily marketed software suites:
 
 * **Multi-Document Viewing:** Open *multiple* PDFs! At the *same time*! In *tabs*! Groundbreaking.
+  
 * **Pixel-Perfect* Page Viewing:** See your PDFs rendered on screen. (*Pixel perfection dependent on screen, zoom level, and PyMuPDF's mood.*)
+
 * **Revolutionary Navigation:** Click "Next." Click "Previous." Type a page number and click "Go." Use the Left/Right arrow keys. Even **Home** and **End** keys work! We've spared no expense*. (*Expense spared: R&D department*)
+
 * **The Power of Deletion:** Eradicate unwanted pages with the terrifying click of a "Delete Page" button! (Subject to confirmation, we're not monsters).
-* **Radical Saving Technology:** Use "Save As..." to preserve your masterful deletions and assemblies under a *different* name. Genius!
+
+* **NEW! Page Reordering Wizardry:** Move pages up! Move pages down! Drag pages to new positions! Rearrange entire presentations in minutes, not hours! All without paying $239/year!
+
+* **NEW! Text Search Technology:** Find words inside your documents! Watch as results highlight in real-time! Navigate with magical "Next" and "Previous" buttons!
+
+* **Radical Saving Technology:** Use "Save" or "Save As..." to preserve your masterful deletions, assemblies, and now *reorderings* under the *same* or *different* name. Genius!
+
 * **Document Assembly:** Right-click on a page in one tab, add it (or the whole document!) to a dedicated "Assembly" tab. Build your Franken-PDFs with unprecedented* ease! (*Ease may vary.*)
+
 * **Zoom Control:** Make things bigger. Make things smaller. Mind. Blown.
+
+* **Keyboard Shortcuts for Power Users:** Ctrl+S to save! Ctrl+Shift+Up/Down to move pages! Ctrl+F to search! F3 to find next! It's almost like we care about efficiency!
 
 ---
 
@@ -40,7 +67,7 @@ Prepare to be moderately whelmed by capabilities previously thought only possibl
 
 Can't be bothered with Python environments? We've got you covered with a pre-built Windows executable:
 
-1. Download `FreeBirdPDF-0.1.0.exe` from the [Releases](https://github.com/bruised-ego-labs/FreeBirdPDF/releases) page
+1. Download `FreeBirdPDF-0.2.0.exe` from the [Releases](https://github.com/bruised-ego-labs/FreeBirdPDF/releases) page
 2. Double-click and enjoy your newfound PDF freedom
 
 *Note: The executable is approximately 50MB because it contains all necessary dependencies. Yes, that's larger than a text editor should be. No, we're not going to apologize for it.*
@@ -67,6 +94,28 @@ Fear not the complex installers of yesteryear! Project FreeBird requires only th
     ```bash
     python FreeBirdPDF.py
     ```
+
+---
+
+## How to Use Advanced Features
+
+### Page Reordering
+
+* **Context Menu:** Right-click on any page to access "Move Page Up", "Move Page Down", or "Move Page To..." options
+* **Reorder Button:** Click the "Reorder Pages" button to enter our revolutionary drag-and-drop thumbnail view
+* **Keyboard Shortcuts:** Press Ctrl+Shift+Up or Ctrl+Shift+Down to move the current page
+
+### Document Search
+
+* **Search Bar:** Press Ctrl+F or click the "Search" button to reveal our state-of-the-art text search panel
+* **Search Options:** Configure case sensitivity and whole word matching to your heart's content
+* **Result Navigation:** Easily move between search hits with "Next" and "Previous" buttons or F3/Shift+F3
+
+### Document Assembly
+
+* **Multi-tab Magic:** Open several PDFs, then right-click on pages and add them to the assembly
+* **Perfect Order:** Use our reordering tools to arrange your assembly document exactly as needed
+* **Save:** Press Ctrl+S to save your masterpiece when it's ready
 
 ---
 
